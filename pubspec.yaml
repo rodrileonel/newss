@@ -1,0 +1,36 @@
+name: superapp
+description: A new Flutter module project.
+publish_to: "none"
+version: 1.1.1+4
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get_it: ^7.6.0
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  http: ^1.0.0
+  dartz: ^0.10.1
+  injectable: ^2.0.2
+  json_serializable: ^6.6.1
+  flutter_svg: ^2.0.7
+  freezed_annotation: ^2.2.0
+  flutter_secure_storage: ^8.0.0
+  connectivity_plus: ^4.0.1
+  collection: ^1.17.1
+  image_picker: ^0.8.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.5
+  injectable_generator: ^2.0.1
+  freezed: ^2.3.5
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
